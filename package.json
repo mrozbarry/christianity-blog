@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "sc": "mdspell -n --en-us README.md ./pages/*.md"
+    "sc": "mdspell -n --en-us README.md ./pages/**/*.md"
   },
   "devDependencies": {
     "markdown-spellcheck": "^1.3.1"
